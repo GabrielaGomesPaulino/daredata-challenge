@@ -43,4 +43,4 @@ python -m flask run # if this does not work try flask run
 - I didn't consider deleting the input zips or the outputs from the script
 - I didn't include any unit tests
 
-NOTES: Since I don't have much experience with python/flask I am sure that I missed out on some key concepts and best practices.
+Notes: Even though I read some documentation and tried to find some good tutorials that would be helpful for this challenge, I am sure that not having a lot of experience with python/flask made me miss out on some key concepts and best practices.
