@@ -38,3 +38,4 @@ python -m flask run # if this does not work try flask run
 - I did not handle the specific case of the zip being empty
 - I didn't implement any authentication which means that the API is public
 - I did not use HTTPS (I used the flask development server)
+- I didn't consider deleting the input zips or the outputs from the script
