@@ -11,7 +11,7 @@ The project is divided in three main components:
 git clone https://github.com/GabrielaGomesPaulino/daredata-challenge.git
 
 cd daredata-challenge
-pip install -r requirements
+pip install -r requirements.txt
 python3 -m venv venv
 
 #for windows
