@@ -29,6 +29,12 @@ python -m flask run # if this does not work try flask run
 #### BASH
 - Create a folder with the name "files" in the root of the project containing the files that you wish to process
 - Run script.sh <br>
-`.\script.sh`
+`./script.sh`
 - Run test.py to visualize the calculations output <br>
 `python test.py`
+
+## Issues and improvements
+- I did not consider input validations (for instance I didn't check if the key "file" is set on the "/upload" endpoint, neither I validated the size or the content of the zip file.
+- I did not handle the specific case of the zip being empty
+- I didn't implement any authentication which means that the API is public
+- I did not use HTTPS (I used the flask development server)
