@@ -29,6 +29,6 @@ python -m flask run # if this does not work try flask run
 #### BASH
 - Create a folder with the name "files" in the root of the project containing the files that you wish to process
 - Run script.sh <br>
-`sh script.sh`
+`.\script.sh`
 - Run test.py to visualize the calculations output <br>
 `python test.py`
