@@ -5,7 +5,7 @@ The project is divided into three main components:
 - A bash script `script.sh` that creates a csv file
 - A python script `calculations.py` that reads the output from the previous bash script
 - A flask application that bootstraps from `main.py`
-Note: I also added a folder resouces containing a postman collection and a zip with files to help with the testing.
+
 ## Project setup instructions
 ``` bash
 git clone https://github.com/GabrielaGomesPaulino/daredata-challenge.git
