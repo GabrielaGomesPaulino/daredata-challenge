@@ -31,7 +31,9 @@ python -m flask run # if this does not work try flask run
 - Run script.sh <br>
 `./script.sh`
 - Run test.py to visualize the calculations output <br>
-`python test.py`
+`python test.py` 
+- If you wish to visualize the histogram uncomment line 26 of `calculations.py`
+
 
 ## Issues and improvements
 - I did not consider input validations (for instance I didn't check if the key "file" is set on the "/upload" endpoint, neither I validated the size or the content of the zip file.
