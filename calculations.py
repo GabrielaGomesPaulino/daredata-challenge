@@ -26,7 +26,7 @@ def run_calculate():
     #plt.show() # Visual representation of the histogram
 
     # Values from the histogram
-    count,division = np.histogram(data['filesize'])
+    count,filesize = np.histogram(data['filesize'])
 
     return {
         "average": average_file_size,
@@ -34,6 +34,6 @@ def run_calculate():
         "smallest_file": smallest_file,
         "histogram":  {
             "count": count.tolist(),
-            "filesize": division.tolist()
+            "filesize": filesize.tolist()
         }
     }
